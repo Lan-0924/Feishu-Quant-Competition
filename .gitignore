@@ -1,0 +1,14 @@
+# Data files
+*.parquet
+
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Node / build output
+showcase/node_modules/
+showcase/dist/
+
+# Misc
+.claude/

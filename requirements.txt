@@ -1,0 +1,14 @@
+# Feishu Quant Competition - strategy notebooks
+# External dependencies only; standard-library modules (pathlib, warnings, os, re)
+# are not listed. Versions pinned to the tested environment (Python 3.12) for
+# reproducibility.
+
+polars==1.40.1
+numpy==2.4.4
+pandas==3.0.3
+matplotlib==3.10.9
+scikit-learn==1.8.0
+
+# Required at runtime by polars.DataFrame.to_pandas() (used in every notebook);
+# also backs polars Parquet I/O.
+pyarrow==24.0.0
