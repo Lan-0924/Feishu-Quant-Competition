@@ -4,9 +4,9 @@ const FINDINGS = [
     body: (
       <>
         OOS CAGR (+17.64%) modestly exceeds in-sample (+17.26%), and OOS MaxDD (−10.18%)
-        is shallower than IS (−12.32%). The strategy's strict look-ahead controls —
+        is shallower than IS (−12.32%). The strategy's strict look-ahead controls –
         1-day factor lag, IS-only fitted weights, frozen sector map, and purged walk-forward
-        Ridge — appear sufficient to prevent the IS performance from being inflated
+        Ridge – appear sufficient to prevent the IS performance from being inflated
         by data snooping.
       </>
     ),
@@ -27,7 +27,7 @@ const FINDINGS = [
     title: 'The Ridge sleeve gains come from diversification, not substitution',
     body: (
       <>
-        The Ridge sleeve alone achieves CAGR +1.5%, Sharpe 0.18, MDD −24.5% —
+        The Ridge sleeve alone achieves CAGR +1.5%, Sharpe 0.18, MDD −24.5% –
         a poor strategy by any measure. Blended at 20% weight, it lifts CAGR by
         +4.9pp and Sharpe by +0.42 while leaving MDD practically unchanged.
         The improvement is attributed to signal breadth: the Ridge's predictions
@@ -40,9 +40,9 @@ const FINDINGS = [
     title: 'LOB microstructure factors carry genuinely orthogonal information',
     body: (
       <>
-        The two LOB factors selected into BaseAlpha — <code>DWI_AFT_MORN</code>{' '}
+        The two LOB factors selected into BaseAlpha – <code>DWI_AFT_MORN</code>{' '}
         (afternoon vs. morning depth-weighted imbalance) and <code>SPR_D</code>{' '}
-        (daily average bid-ask spread) — show near-zero cross-sectional rank
+        (daily average bid-ask spread) – show near-zero cross-sectional rank
         correlation to price-based factors. This validates the family-diversification
         constraint: without the family cap, these signals would likely have been
         crowded out by the stronger in-sample reversal factors.

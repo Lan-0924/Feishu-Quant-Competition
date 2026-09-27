@@ -12,7 +12,7 @@ const ARTIFACTS = [
   {
     href: 'https://github.com/Lan-0924/Feishu-Quant-Competition',
     external: true,
-    title: 'Source Code — GitHub',
+    title: 'Source Code – GitHub',
     desc: 'Three Jupyter notebooks (strategy_final, signal_breakdown_IS, oos_submission), ' +
           'requirements.txt, and all figures. Python 3.12, Polars, scikit-learn. ' +
           'Proprietary competition data files are not included.',
@@ -35,7 +35,7 @@ export default function Artifacts() {
               rel={a.external ? 'noopener noreferrer' : undefined}
               className="artifact-row"
               role="listitem"
-              aria-label={`${a.title} — ${a.label}`}
+              aria-label={`${a.title} – ${a.label}`}
             >
               <div className="artifact-info">
                 <div className="artifact-title">{a.title}</div>

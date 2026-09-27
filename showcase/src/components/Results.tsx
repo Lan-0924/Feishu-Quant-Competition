@@ -22,8 +22,8 @@ export default function Results() {
 
         {/* Signal Decomposition */}
         <p style={{ marginTop: '2.5rem' }}>
-          The identical portfolio simulator was run three times on the same IS period —
-          once per signal — to isolate the contribution of each component.
+          The identical portfolio simulator was run three times on the same IS period –
+          once per signal – to isolate the contribution of each component.
           Only the signal changes; the portfolio engine, overlays, and execution rules
           are held constant.
         </p>
@@ -97,7 +97,7 @@ export default function Results() {
         <p style={{ marginTop: '2.5rem' }}>
           The strategy was applied to the OOS period using a fresh RMB 50M cold start.
           All fitted artifacts (factor weights, sector map, Ridge hyperparameters) remained
-          exactly as estimated on IS data — no re-optimisation.
+          exactly as estimated on IS data – no re-optimisation.
         </p>
         <div className="figure-wrap" style={{ marginTop: '1.25rem' }}>
           <img

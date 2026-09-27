@@ -15,7 +15,7 @@ export default function Overview() {
           <p style={{ marginTop: '0.85rem' }}>
             The central challenge is not maximising raw predictive IC in isolation, but rather
             building a portfolio that generates positive net-of-cost returns across a concentrated,
-            12-name long-only mandate — where turnover costs, lot-size constraints, and intraday
+            12-name long-only mandate – where turnover costs, lot-size constraints, and intraday
             execution friction matter substantially.
           </p>
         </div>
@@ -31,7 +31,7 @@ export default function Overview() {
           </code>
           <p style={{ marginTop: '0.75rem' }}>
             Each term is a cross-team percentile rank. This structure directly motivated the
-            three portfolio risk overlays — one for each score component — and informed the
+            three portfolio risk overlays – one for each score component – and informed the
             ensemble blending decision. Academic partners included the University of Toronto
             Mathematical Finance &amp; RiskLab, TU Munich, and ETH/University of Zurich.
           </p>

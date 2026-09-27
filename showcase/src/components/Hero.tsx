@@ -12,8 +12,8 @@ export default function Hero() {
 
         <p className="hero-desc">
           A concentrated long-only strategy for Shanghai A-share markets that combines
-          an 8-factor ICIR-weighted alpha signal — blending price-based reversals with
-          order-book microstructure — with a walk-forward Ridge ensemble and three
+          an 8-factor ICIR-weighted alpha signal – blending price-based reversals with
+          order-book microstructure – with a walk-forward Ridge ensemble and three
           risk overlays, evaluated under strict leakage controls across
           an in-sample and a blind out-of-sample period.
         </p>

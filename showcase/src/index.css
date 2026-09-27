@@ -1,5 +1,5 @@
 /* =========================================================
-   Global styles — Research Showcase
+   Global styles – Research Showcase
    Design: editorial, academic, restrained
    ========================================================= */
 
@@ -162,7 +162,7 @@ nav {
   background: var(--accent-bg);
 }
 
-/* Nav select — mobile fallback */
+/* Nav select – mobile fallback */
 .nav-select {
   display: none;
   font-size: 0.78rem;
@@ -200,7 +200,7 @@ nav {
   margin-bottom: 1.75rem;
 }
 
-/* Key stats — plain inline text row, no borders */
+/* Key stats – plain inline text row, no borders */
 .hero-key-stats {
   display: flex;
   flex-wrap: wrap;

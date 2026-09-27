@@ -23,9 +23,9 @@ export default function Methodology() {
           Look-ahead is controlled at every layer.
         </p>
 
-        {/* 1 — Factor Library */}
+        {/* 1 – Factor Library */}
         <div className="subsection">
-          <h3 className="subsection-title">Factor Library — 27 Candidates across 9 Families</h3>
+          <h3 className="subsection-title">Factor Library – 27 Candidates across 9 Families</h3>
           <p>
             All 27 factors are computed from daily OHLCV data or from the 10-minute,
             10-level LOB snapshots. Each factor is signed so that a higher value predicts
@@ -109,9 +109,9 @@ export default function Methodology() {
           </div>
         </div>
 
-        {/* 2 — BaseAlpha */}
+        {/* 2 – BaseAlpha */}
         <div className="subsection">
-          <h3 className="subsection-title">BaseAlpha — ICIR-Weighted Composite</h3>
+          <h3 className="subsection-title">BaseAlpha – ICIR-Weighted Composite</h3>
           <p>
             From the 27 candidates, factors are screened through four gates applied
             on in-sample data only: |IC|&nbsp;≥&nbsp;0.010, |ICIR|&nbsp;≥&nbsp;0.12,
@@ -140,14 +140,14 @@ export default function Methodology() {
           </p>
         </div>
 
-        {/* 3 — Sector Residualisation */}
+        {/* 3 – Sector Residualisation */}
         <div className="subsection">
           <h3 className="subsection-title">Sector Residualisation</h3>
           <p>
             No official GICS labels are available, so statistical sectors are estimated
             from return co-movement: PCA (20 components) applied to the D080–D240 return
             panel, followed by k-means clustering into 10 groups. The sector map is
-            fitted once and <strong>frozen</strong> — it is never refit on OOS data.
+            fitted once and <strong>frozen</strong> – it is never refit on OOS data.
           </p>
           <p style={{ marginTop: '0.75rem' }}>
             Partial sector-mean removal (λ&nbsp;=&nbsp;0.5) reduces cross-sectional sector
@@ -163,7 +163,7 @@ export default function Methodology() {
           </p>
         </div>
 
-        {/* 4 — ML Sleeve */}
+        {/* 4 – ML Sleeve */}
         <div className="subsection">
           <h3 className="subsection-title">Walk-Forward Ridge Ensemble Sleeve</h3>
           <p>
@@ -184,12 +184,12 @@ export default function Methodology() {
           </p>
           <code className="inline-formula">alpha_final = 0.8 × z(BaseAlpha_res) + 0.2 × z(ridge_5d)</code>
           <p>
-            The combined signal achieves IC&nbsp;=&nbsp;+0.0980, ICIR&nbsp;=&nbsp;+0.795 — higher IC
+            The combined signal achieves IC&nbsp;=&nbsp;+0.0980, ICIR&nbsp;=&nbsp;+0.795 – higher IC
             than either component alone, with the ICIR intermediate between them.
           </p>
         </div>
 
-        {/* 5 — Portfolio Construction */}
+        {/* 5 – Portfolio Construction */}
         <div className="subsection">
           <h3 className="subsection-title">Portfolio Construction and Risk Overlays</h3>
           <p>
@@ -200,7 +200,7 @@ export default function Methodology() {
           </p>
           <p style={{ marginTop: '0.75rem' }}>
             Position sizing is a 50/50 blend of inverse-volatility and alpha-rank weights,
-            capped and renormalised. Three exposure overlays are then applied — each
+            capped and renormalised. Three exposure overlays are then applied – each
             targeting one term of the competition score function:
           </p>
 
