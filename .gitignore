@@ -9,6 +9,3 @@ __pycache__/
 # Node / build output
 showcase/node_modules/
 showcase/dist/
-
-# Misc
-.claude/
