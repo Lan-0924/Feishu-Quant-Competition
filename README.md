@@ -1,4 +1,4 @@
-# Feishu Quant Competition — Long-Only A-Share Strategy
+# Feishu Quant Competition - Long-Only A-Share Strategy
 
 ## Project overview
 
@@ -52,9 +52,9 @@ pip install -r requirements.txt
 Each notebook is self-contained and recomputes the full pipeline from the Parquet inputs;
 run them top-to-bottom in the following order:
 
-1. `strategy_final.ipynb` — in-sample production run and equity curve.
-2. `strategy_signal_breakdown_IS.ipynb` — in-sample signal decomposition.
-3. `strategy_oos_submission.ipynb` — out-of-sample evaluation.
+1. `strategy_final.ipynb` - in-sample production run and equity curve.
+2. `strategy_signal_breakdown_IS.ipynb` - in-sample signal decomposition.
+3. `strategy_oos_submission.ipynb` - out-of-sample evaluation.
 
 Figures are written to a `figures/` directory, which the notebooks create automatically.
 
